@@ -35,7 +35,7 @@ runs:
   using: 'composite'
   steps:
     -
-      uses: k1LoW/gh-setup@v1
+      uses: yamoyamoto/gh-setup@v0
       with:
         repo: github.com/yamoyamoto/octocov
         github-token: ${{ inputs.github-token }}
